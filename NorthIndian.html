@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700" rel="stylesheet"> !-->
+      <!--Import materialize.css-->
+     <!-- <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>!-->
+      <title>North Indian Page</title>
+      <link rel="stylesheet" type="text/css" href="menu.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <!--<ul class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+    <nav>
+      <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">About Us</a></li>
+        <li><a class="dropdown" href="contact.asp">Menu</a></li>
+        <li><a href="about.asp">Contact Us</a></li>
+        <li><a href="default.asp">Gallery</a></li>
+        <li><a href="default.asp">Reviews</a></li>
+      </ul> 
+    </nav>!-->
+    <div class="topmost">
+    <h1>OSR HOTELS</h1>
+    </div>
+    <div class="container" id="myTopnav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="responsive-content">
+      <a href="#home">HOME</a>
+      <a href="#news">ABOUT US</a>
+      <div tabindex="0" class="dropdown">
+        <button id="btnShowHide" class="dropbtn">MENU &#x25BE;</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Andhra Delicacies</a>
+          <a href="#">Mangalorean Cuisine</a>
+          <a href="#">Tandoor Delicacies</a>
+          <a href="#">Indian Breads</a>
+          <a href="#">North Indian</a>
+          <a href="#">Chineese</a>
+          <a href="#">Royal Indulgence</a>
+        </div>
+      </div>
+      <a href="#news">CONTACT US</a> 
+      <a href="#news">GALLERY</a>
+      <a href="#news">REVIEW</a>
+      </div>
+      <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div class="header">
+      <h2>NORTH INDIAN</h2>
+    </div>
+    <div class="pagebody">
+    <div class="tab">
+      <h3>MENU</h3>
+      <button class="tablinks active" onclick="openMenu(event, 'Veg Main Course Spicy')">Veg Main Course Spicy</button>
+      <button class="tablinks" onclick="openMenu(event, 'Medium Spicy')">Medium Spicy</button>
+      <button class="tablinks" onclick="openMenu(event, 'Non-Spicy')">Non-Spicy</button>
+      <button class="tablinks" onclick="openMenu(event, 'Dal')">Dal</button>
+      <button class="tablinks" onclick="openMenu(event, 'Rice')">Rice</button>
+      <button class="tablinks" onclick="openMenu(event, 'Chicken Main Course')">Chicken Main Course</button>
+    </div>
+    <div class="middle">
+      <div class="dropdown2">
+         <button class="dropbtn2" onclick='$("#myDropdown2").toggleClass("show")'>Veg Main Course  &#9660;</button>
+          <div id="myDropdown2" class="dropdown-content2">
+        <button class="tablinks active" onclick="openMenu(event, 'Veg Main Course Spicy')">Veg Main Course Spicy</button>
+      <button class="tablinks" onclick="openMenu(event, 'Medium Spicy')">Medium Spicy</button>
+      <button class="tablinks" onclick="openMenu(event, 'Non-Spicy')">Non-Spicy</button>
+      <button class="tablinks" onclick="openMenu(event, 'Dal')">Dal</button>
+      <button class="tablinks" onclick="openMenu(event, 'Rice')">Rice</button>
+      <button class="tablinks" onclick="openMenu(event, 'Chicken Main Course')">Chicken Main Course</button> 
+          </div>
+      </div>
+      <div id="Veg Main Course" class="tabcontent">
+       <h4>VEG MAIN COURSE</h4>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Veg Kolhapuri</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">235</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Veg Hyderabadi</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">235</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Veg Sahajani Masala</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">235</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Kadai Paneer</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">255</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:25</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Paneer Kolhapuri</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">255</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+      </div>
+      <div id="Medium Spicy" class="tabcontent hide">
+        <h4>MEDIUM SPICY</h4>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Veg Shalimar</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">235</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Veg Kadai</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">235</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Veg Diwani Handi</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">235</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Dhingri Muttor Hara</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">240</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Royal Special Veg</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">245</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Paneer Butter Masala</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">255</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Palak Paneer</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">255</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+      </div>
+      <div id="Non-Spicy" class="tabcontent hide">
+        <h4>NON-SPICY</h4>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Malai Kofta</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">240</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Veg Sahi Korma</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">240</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Navratna Korma</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">240</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Paneer Shahi Korma</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">255</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+      </div>
+      <div id="Dal" class="tabcontent hide">
+        <h4>DAL</h4>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Yellow Dal Tadka</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">200</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Dal Makhani</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">200</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Dal Palak</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">200</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+      </div>
+      <div id="Rice" class="tabcontent">
+       <h4>RICE</h4>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Kashmiri Pulao</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">215</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Palak Rice</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">210</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Dal Khichidi</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">210</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Jeera Rice</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">210</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:25</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Veg Pulao</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">210</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+      </div>
+      <div id="Chicken Main Course" class="tabcontent">
+       <h4>CHICKEN MAIN COURSE</h4>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Murgh Amritsar</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">275</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Murgh Afghani Masala</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">275</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Murgh Hyderabadi</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">275</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Murgh Kolhapuri</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">275</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:25</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Murgh Kandhari</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">275</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Murgh Patiala</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">275</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Murgh Peshawari</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">275</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Royal Special Chicken</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">280</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Murgh Tikka Masala</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">280</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Murgh Makhani</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">280</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Mutton Roghan Josh</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">315</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Mutton Bhuna Gosht</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">315</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Kheema Gosht</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">315</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+       <div class="items">
+        <div class="image">
+        <!--<img src="Roti.jpg">!-->
+        </div>
+        <div class="content" onclick='$(".content").toggleClass("maxcontent")' id="cont">
+          <div class="top">
+            <div class="heading">
+              <h5 class="name">Mutton Sahi Korma</h5>
+            </div>
+            <div class="cost">
+              <h5 class="rate">315</h5>
+            </div>
+          </div>
+          <div class="details">
+            <p>THis is very smooth and soft and very amaazing</p>
+          </div>
+          <div class="deliveryCost">
+            <h5>Delivery Cost:0</h5>
+          </div>
+          <a href="#" class="btn">ORDER</a>
+        </div>
+       </div>
+       <hr>
+      </div>
+    </div>
+    <div class="ordering">
+      <p id="font">YOUR ORDER</p>
+      <hr>
+    </div>
+    </div>
+    <div class="footer">
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+  </body>
+</html>
+        
